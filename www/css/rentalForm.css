@@ -1,0 +1,168 @@
+
+#rentalForm {
+    position: relative;
+    width: 700px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 20px gray;
+    border-radius: 3px;
+
+
+}
+
+
+#rentalForm .horizontalTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+    font-size: 14px;
+    border: none;
+}
+
+#rentalForm .horizontalTable caption {
+    background: #ffffff;
+    padding: 10px;
+    font-size: 25px;
+}
+
+#rentalForm .horizontalTable th,
+#rentalForm .horizontalTable td {
+    padding: 10px;
+}
+
+#rentalForm .horizontalTable th {
+
+    background: #3D4247;
+    vertical-align: middle;
+    text-align: center;
+    width: 100px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#rentalForm .horizontalTable th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #3D4247;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+#rentalForm .verticalTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+    font-size: 14px;
+    padding: 0 0 20px 0;
+    border: none;
+
+}
+
+#rentalForm .verticalTable th {
+
+    background: #3D4247;
+    vertical-align: middle;
+    text-align: center;
+    width: 100px;
+    overflow: visible;
+    padding: 10px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#rentalForm .horizontalTable td,
+#rentalForm .verticalTable td {
+    background: #f8f8f8;
+    width: 360px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#rentalForm .verticalTable td p {
+    margin: 0.3em 0px;
+}
+
+
+#rentalForm .innerTable,
+#rentalForm .innerTable td,
+#rentalForm .innerTable th {
+    
+    border: 1px #3D4247 solid;
+}
+
+#rentalForm .innerTable {
+    text-align: center;
+    border-spacing: 0px;
+}
+
+#rentalForm .innerTable th,
+#rentalForm .innerTable td {
+    padding: none;
+}
+
+
+#rentalForm .innerTable td {
+    background: #ffffff;
+    width: 360px;
+    padding-left: 20px;
+}
+
+#rentalForm .innerTable th:after {
+    left: none;
+    top: none;
+    border: none;
+    content: none;
+    height: none;
+    width: none;
+    position: none;
+    pointer-events: none;
+    border-color: none;
+    border-left-color: none;
+    border-width: none;
+    margin-top: none;
+}
+
+#rentalForm .innerTable tr:nth-child(odd) {
+    background: #f3f4f5;
+}
+
+#rentalForm #return {
+    text-transform: uppercase;
+    outline: 0;
+    height: 40px;
+	width: 250px;
+	border: 0;
+	padding: 10px;
+	color: #000000;
+	font-size: 14px;
+	cursor: pointer;
+	background: #f2f2f2;
+	border-radius: 5px;
+}
+
+#rentalForm #return:hover,
+#rentalForm #return:active,
+#rentalForm #return:focus {
+    color: #ffffff;
+	background: #b3b3b3;
+}
+
+
+#rentalForm form #submit {
+    margin: 15px 0 0 0;
+    float: right;
+	width: 250px;
+
+}
